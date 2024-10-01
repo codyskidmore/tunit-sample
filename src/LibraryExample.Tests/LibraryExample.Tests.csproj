@@ -10,4 +10,8 @@
       <PackageReference Include="TUnit" Version="0.1.885" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\LibraryExample\LibraryExample.csproj" />
+    </ItemGroup>
+
 </Project>
