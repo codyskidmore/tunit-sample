@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUnit.Sample", "TUnit.Sample\TUnit.Sample.csproj", "{FB55E9A1-8D0E-4BE0-A73A-EE8AEC231750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6D1561E-B4E9-4C44-B54C-23755D7DB750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample", "LibraryExample\LibraryExample.csproj", "{773CEBBA-9C0B-4552-9B2D-255CEDC645F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample.Tests", "LibraryExample.Tests\LibraryExample.Tests.csproj", "{70A61812-0777-4C39-A338-74D021F3CC7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB55E9A1-8D0E-4BE0-A73A-EE8AEC231750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB55E9A1-8D0E-4BE0-A73A-EE8AEC231750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB55E9A1-8D0E-4BE0-A73A-EE8AEC231750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB55E9A1-8D0E-4BE0-A73A-EE8AEC231750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773CEBBA-9C0B-4552-9B2D-255CEDC645F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773CEBBA-9C0B-4552-9B2D-255CEDC645F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773CEBBA-9C0B-4552-9B2D-255CEDC645F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773CEBBA-9C0B-4552-9B2D-255CEDC645F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A61812-0777-4C39-A338-74D021F3CC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A61812-0777-4C39-A338-74D021F3CC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A61812-0777-4C39-A338-74D021F3CC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A61812-0777-4C39-A338-74D021F3CC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{773CEBBA-9C0B-4552-9B2D-255CEDC645F3} = {B6D1561E-B4E9-4C44-B54C-23755D7DB750}
+		{70A61812-0777-4C39-A338-74D021F3CC7C} = {B6D1561E-B4E9-4C44-B54C-23755D7DB750}
+	EndGlobalSection
+EndGlobal
